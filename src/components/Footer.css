@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  body {
+    background-image: url("img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .hide {
+    display: none !important;
+  }
+  
+  .container {
+    background-color: #5c54ed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+    max-width: 400px;
+  }
+
+  .form-input-container {
+    display: flex;
+  }
+
+  .form-input-container button {
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #8dd0f5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
